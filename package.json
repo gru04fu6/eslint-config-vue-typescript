@@ -14,12 +14,14 @@
   "dependencies": {
     "@vue/eslint-config-typescript": "^5.0.2",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-vue": "^7.0.0-0"
+    "eslint-plugin-vue": "^7.0.0-0",
+    "@typescript-eslint/eslint-plugin": "^4.11.0"
   },
   "peerDependencies": {
-    "@vue/eslint-config-typescript": "^5.0.2",
     "eslint": "^6.7.2",
+    "@vue/eslint-config-typescript": "^5.0.2",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-vue": "^7.0.0-0"
+    "eslint-plugin-vue": "^7.0.0-0",
+    "@typescript-eslint/eslint-plugin": "^4.11.0"
   }
 }
