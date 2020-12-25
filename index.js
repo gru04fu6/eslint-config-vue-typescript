@@ -3,19 +3,12 @@ const ERROR = 'error';
 const WARNING = 'warn';
 
 module.exports = {
-    root: true,
-    env: {
-        node: true
-    },
     extends: [
         'plugin:vue/vue3-essential',
         'eslint:recommended',
         '@vue/typescript/recommended',
         'plugin:import/typescript'
     ],
-    parserOptions: {
-        ecmaVersion: 2020
-    },
     plugins: ['vue', '@typescript-eslint', 'import'],
     rules: {
         'arrow-body-style': [ERROR, 'as-needed'],
