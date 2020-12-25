@@ -1,19 +1,14 @@
 {
-  "name": "@onion/eslint-plugin-vue3-typescript",
-  "version": "1.0.0",
+  "name": "eslint-config-vue3-typescript",
+  "version": "1.0.1",
   "description": "Vue3加上typescript的eslint設定",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "git-directory-deploy --directory _dist --branch feature/add_packages/mike"
   },
   "files": [
-    "lib"
+    "index.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gru04fu6/vue3-typescript-config.git"
-  },
   "author": "mike",
   "license": "MIT",
   "dependencies": {
