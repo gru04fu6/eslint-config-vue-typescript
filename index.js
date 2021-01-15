@@ -41,6 +41,7 @@ module.exports = {
         'object-shorthand': WARNING,
         quotes: [ERROR, 'single'],
         semi: ERROR,
+        'no-underscore-dangle': OFF,
 
         // -------------------- vue plugin --------------------
         'vue/html-indent': [WARNING, 4],
