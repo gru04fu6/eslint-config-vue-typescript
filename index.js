@@ -123,7 +123,7 @@ module.exports = {
         '@typescript-eslint/no-shadow': ERROR,
         '@typescript-eslint/no-use-before-define': [
             ERROR,
-            { ignoreTypeReferences: true, typedefs: false }
+            { ignoreTypeReferences: true, typedefs: false, functions: false }
         ],
         // -----------------------------------------------------
 
