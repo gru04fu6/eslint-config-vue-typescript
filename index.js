@@ -22,7 +22,6 @@ module.exports = {
             { exceptAfterSingleLine: true }
         ],
         'max-len': OFF,
-        'no-underscore-dangle': [ERROR, { allow: ['__'] }],
         'no-bitwise': [ERROR, { allow: ['~'] }],
         'no-console': process.env.NODE_ENV === 'production' ? ERROR : OFF,
         'no-debugger': process.env.NODE_ENV === 'production' ? ERROR : OFF,
