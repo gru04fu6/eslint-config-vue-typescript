@@ -103,6 +103,7 @@ module.exports = {
         'class-methods-use-this': OFF,
         'no-async-promise-executor': OFF,
         '@typescript-eslint/no-this-alias': OFF,
+        '@typescript-eslint/no-var-requires': OFF,
         '@typescript-eslint/no-explicit-any': OFF,
         '@typescript-eslint/no-non-null-assertion': OFF,
         '@typescript-eslint/explicit-module-boundary-types': OFF
