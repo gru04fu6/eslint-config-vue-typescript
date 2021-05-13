@@ -7,6 +7,7 @@ module.exports = {
     extends: [
         'eslint:recommended',
         '@vue/typescript/recommended',
+        'plugin:import/typescript'
     ],
     plugins: ['vue', '@typescript-eslint', 'import'],
     rules: {
