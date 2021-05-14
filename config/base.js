@@ -91,6 +91,7 @@ module.exports = {
             typedefs: false,
             functions: false
         }],
+        '@typescript-eslint/no-empty-interface': [ERROR, { 'allowSingleExtends': true }],
         // -----------------------------------------------------
 
         // -----------------------關掉設定-----------------------
